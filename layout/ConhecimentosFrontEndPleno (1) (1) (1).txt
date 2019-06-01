@@ -1,0 +1,19 @@
+Conhecimentos necessários:
+- Capacidade de resolução de problemas, com soluções simples;
+- Códigos semânticamente corretos, organizados e bem estruturados;
+- Conhecimento intermediário em JavaScript (jQuery);
+- Conhecimento avançado em HTML5 e CSS3;
+- Conhecimentos em lógica de programação;
+- Design responsivo;
+- Recorte de imagens do Photoshop e Illustrator;
+- Sistemas de controle de versão (git).
+
+Conhecimentos desejáveis:
+- Automatizadores de tarefa (gulp);
+- Experiência com implementação de e-mail marketing;
+- Recorte de imagens do XD.
+
+Diferenciais:
+- Conhecimento em Angular e React;
+- Conhecimento em CMS (Wordpress);
+- Experiência com pacote SCORM 1.2.

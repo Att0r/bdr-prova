@@ -1,0 +1,7 @@
+.ui-center {
+  @include center;
+}
+
+.col-half {
+  @include column(1/2);
+}
