@@ -13,6 +13,7 @@
 </head>
 
 <body>
+
   <header id="header-home">
     <div class="slick-header">
       <div class="item">
@@ -29,11 +30,13 @@
       </div>
     </div>
   </header>
+
   <div class="float-title">
     <p class="float-title-title">Loren Ipsun</p>
     <p class="float-title-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-    <img class="float-title-arrow" src="../images/arrow-down.png" alt="Seta para baixo">
+    <a href="#spotlight-section" class="scrollTo"><img class="float-title-arrow" src="../images/arrow-down.png" alt="Seta para baixo"></a>
   </div>
+
   <section id="spotlight-section">
     <div class="slick-section__container">
       <div class="slick-section">
@@ -101,11 +104,167 @@
       </div>
     </div>
   </section>
+
+  <section id="info-section">
+    <div class="container">
+      <div class="ui-row">
+        <div class="ui-col">
+          <img class="info-img__cicle" src="../images/img-cicle.png" alt="Paisagem da montanha">
+        </div>
+        <div class="ui-col">
+          <p class="title">Lorem Ipsum</p>
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+            accumsan lacus vel facilisis. </p>
+          <p class="text text-strong">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut
+            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+            accumsan lacus vel facilisis. </p>
+          <p class="text text-italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut
+            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+            accumsan lacus vel facilisis. </p>
+          <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
+            accumsan lacus vel facilisis. </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="toggle-section">
+    <div class="container">
+      <div class="item-toggle">
+        <div class="header-toggle">
+          <p clas="header-toggle__title">Lorem ipsum</p>
+          <i class="header-toggle__arrow-down"></i>
+        </div>
+        <div class="content-toggle" style="display: none;">
+          <!-- <p class="content-toggle__title">Lorem ipsum</p> -->
+          <div class="ui-row">
+            <div class="ui-col">
+              <img class="content-toggle__img" src="../images/img-toggle.png" alt="Paisagem da montanha">
+            </div>
+            <div class="ui-col">
+              <p class="content-toggle__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt
+                ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                maecenas accumsan lacus vel facilisis. </p>
+            </div>
+          </div>
+        </div>
+        <div class="header-toggle">
+          <p clas="header-toggle__title">Lorem ipsum</p>
+          <i class="header-toggle__arrow-down"></i>
+        </div>
+        <div class="content-toggle" style="display: none;">
+          <!-- <p class="content-toggle__title">Lorem ipsum</p> -->
+          <div class="ui-row">
+            <div class="ui-col">
+              <img class="content-toggle__img" src="../images/img-toggle.png" alt="Paisagem da montanha">
+            </div>
+            <div class="ui-col">
+              <p class="content-toggle__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt
+                ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                maecenas accumsan lacus vel facilisis. </p>
+            </div>
+          </div>
+        </div>
+        <div class="header-toggle header-toggle-active">
+          <p clas="header-toggle__title">Lorem ipsum</p>
+          <i class="header-toggle__arrow-up"></i>
+        </div>
+        <div class="content-toggle" style="display: block;">
+          <div class="ui-row">
+            <div class="ui-col">
+              <img class="content-toggle__img" src="../images/img-toggle.png" alt="Paisagem da montanha">
+            </div>
+            <div class="ui-col">
+              <p class="content-toggle__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt
+                ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                maecenas accumsan lacus vel facilisis. </p>
+            </div>
+          </div>
+        </div>
+        <div class="header-toggle header-toggle-radius">
+          <p clas="header-toggle__title">Lorem ipsum</p>
+          <i class="header-toggle__arrow-down"></i>
+        </div>
+        <div class="content-toggle" style="display: none;">
+          <div class="ui-row">
+            <div class="ui-col">
+              <img class="content-toggle__img" src="../images/img-toggle.png" alt="Paisagem da montanha">
+            </div>
+            <div class="ui-col">
+              <p class="content-toggle__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt
+                ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                maecenas accumsan lacus vel facilisis. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="form-section">
+    <div class="container">
+      <form action="javascript:alert('Mensagem enviada com sucesso.')" class="contato__form">
+        <div class="ui-row">
+          <div class="contato__form-area">
+            <label for="txtNome" class="ui-label">
+              *Nome:
+            </label for="">
+            <input type="text" required class="ui-input" id="txtNome" placeholder="Informe seu nome">
+          </div>
+        </div>
+        <div class="ui-row">
+          <div class="ui-col">
+            <div class="contato__form-area">
+              <label for="txtEmail" class="ui-label">
+                *Email:
+              </label>
+              <input type="email" required class="ui-input" id="txtEmail" placeholder="Informe seu e-mail">
+            </div>
+          </div>
+          <div class="ui-col">
+            <div class="contato__form-area">
+              <label for="txtPhone" class="ui-label">
+                *Telefone:
+              </label>
+              <input type="phone" required class="ui-input phone_with_ddd" id="txtPhone" placeholder="(__) ____-____">
+            </div>
+          </div>
+        </div>
+        <div class="ui-row">
+          <div class="contato__form-area">
+            <label for="txtArea" class="ui-label">
+              *Mensagem:
+            </label>
+            <textarea required rows="10" id="txtArea" placeholder="Escreva aqui"></textarea>
+          </div>
+        </div>
+        <div class="ui-row ui-row-center">
+          <input type="submit" class="ui-button" id="enviar" value="Enviar">
+        </div>
+      </form>
+    </div>
+    <div class="bg-division">
+    </div>
+  </section>
+
+  <footer id="footer-page">
+    <p class="text">Lorem Ipsum</p>
+  </footer>
+
 </body>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="../plugin/slick/slick.min.js"></script>
+<script src="../scripts/jquery.mask.min.js"></script>
 <script src="https://kit.fontawesome.com/44eae81068.js"></script>
 <script src="../scripts/minify/main.min.js"></script>
 
